@@ -34,3 +34,15 @@ ul {
     border: 1px solid black;
     text-transform: uppercase;
 }
+
+.correct {
+    background-color: green;
+}
+
+.absent {
+    background-color: lightgrey;
+}
+
+.present {
+    background-color: yellow;
+}

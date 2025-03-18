@@ -15,6 +15,13 @@ function App() {
   return (
     <>
       <h1>Wordle </h1>
+      <p>
+        <span className="correct">Green</span> - Correct letter in the correct
+        position. <br />
+        <span className="present">Yellow</span> - Correct letter in the wrong
+        position. <br />
+        <span className="absent">Gray</span> - Letter is not in the word.
+      </p>
       <Line solution={solution} />
     </>
   );
